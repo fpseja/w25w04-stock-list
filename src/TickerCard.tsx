@@ -1,5 +1,3 @@
-import React from 'react'
-
 type TickerCardProps = {
     ticker: string
     name: string
