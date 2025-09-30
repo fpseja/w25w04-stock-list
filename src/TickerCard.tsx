@@ -17,7 +17,7 @@ const TickerCard = ({ ticker, name, currentPrice, previousClose }: TickerCardPro
             </div>
             <div className="border-b border-gray-200 mb-4"></div>
 
-            <div className={`text-4xl font-extrabold mb-2 ${isPositive ? 'text-green-600' : 'text-red-600'}`}>
+            <div className={`text-4xl font-extrabold mb-2 ${isPositive ? 'text-green-500' : 'text-red-500'}`}>
                 ${currentPrice.toFixed(2)}
             </div>
 
